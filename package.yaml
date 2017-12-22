@@ -1,0 +1,20 @@
+name:                libromancy
+version:             0.1.0.0
+#synopsis:
+#description:
+homepage:            https://github.com/githubuser/libromancy#readme
+license:             BSD3
+author:              Author name here
+maintainer:          example@example.com
+copyright:           2017 Author name here
+category:            Web
+extra-source-files:
+- README.md
+
+dependencies:
+  - base >= 4.7 && < 5
+
+executables:
+  libromancy:
+    source-dirs:      src
+    main:             Main.hs
